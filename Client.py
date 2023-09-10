@@ -6,7 +6,7 @@ import struct
 # Client socket setup
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_ip = '192.168.56.1' # Replace with the server IP address
-port = 9999
+port = 8888
 client_socket.connect((host_ip, port))
 
 data = b""
