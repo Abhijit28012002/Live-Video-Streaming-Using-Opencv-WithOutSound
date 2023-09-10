@@ -4,11 +4,11 @@ import pickle
 import struct
 
 # Server socket setup
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)#172.27.224.1  
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_name = socket.gethostname()
-host_ip = '192.168.56.1' #socket.gethostbyname(host_name)
+host_ip = '192.168.56.1' # Enter Your IP Address
 print('HOST IP:', host_ip)
-port = 9999
+port = 8888
 socket_address = (host_ip, port)
 
 server_socket.bind(socket_address)
